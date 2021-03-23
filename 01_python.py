@@ -15,7 +15,4 @@ Like a diamond in the sky
 Twinkle, twinkle, little star
 How I wonder what you are
 ''')
-
-print(8**8)
-print(8/3)
-print(8//3)
+import subprocess

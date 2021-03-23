@@ -10,7 +10,10 @@ print("""hello
     kartik
     tyagi 
     always 
-    great """)
+    great
+    smja bhai 
+    ok phir kal dekhte hai kya hota hai bhai
+     """)
 
 # print(string1,"\n")
 # print(string2,"\b")
