@@ -12,7 +12,7 @@ import subprocess
 
 parser = optparse.OptionParser()
 parser.add_option("-i","--interface",dest="interface",help="interface of the network")
-parser.add_option("-m","--new_mac"dest="new_mac",help="new mac address")
+parser.add_option("-m","--new_mac",dest="new_mac",help="new mac address")
 (options,interface) = parser.parse_args()
 
 subprocess.call("sudo ifconfig", "eth0", "down",shell=True)
