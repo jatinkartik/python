@@ -1,0 +1,1 @@
+print('hey i have installed python in my desktop and i am on  linux thats why i am using vs code')
