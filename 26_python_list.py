@@ -1,0 +1,11 @@
+var = ["hello","jatin","kartik","tyagi","OscpNextYear"]
+print(var)
+var1= var.sort()
+print(var1)
+print(var)
+var.reverse()
+var.reverse()
+var.pop(-1)
+print(var)
+var.append("tyagi")
+print(var)
