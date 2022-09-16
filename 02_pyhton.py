@@ -16,6 +16,7 @@ parser.add_option("-m","--new_mac",dest="new_mac",help="new mac address")
 (options,interface) = parser.parse_args()
 
 subprocess.call("sudo ifconfig", "eth0", "down",shell=True)
+# subprocess.call("pwd",shell=True)
 subprocess.call("sudo ifconfig", "eth0", "hw", "ether","00:11:33:44:55:55",shell=True)
 subprocess.call("sudo ifconfig", "eth0", "up",shell=True)
 
